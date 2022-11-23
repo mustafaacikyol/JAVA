@@ -29,7 +29,7 @@ class Cinema {
         return this.totalNumberofSeats - this.numberofTicketsSold;
     }
 
-    public int findOutTheTotalNumberofTicketsSold(){
+    public int getTheTotalNumberofTicketsSold(){
         return totalNumberofTicketsSold;
     }
 
@@ -49,7 +49,7 @@ public class App {
         System.out.println("Ticket cancelled!");
         System.out.println("Number of Tickets Sold : " + a.numberofTicketsSold);
         System.out.println("Empty Seat : " + a.learnEmptySeat()); 
-        System.out.println("Total Number of Tickets Sold : " + a.findOutTheTotalNumberofTicketsSold());
+        System.out.println("Total Number of Tickets Sold : " + a.getTheTotalNumberofTicketsSold());
         Cinema b = new Cinema(2, 40);
         System.out.println("\nCinema B");
         System.out.println("Empty Seat : " + b.learnEmptySeat());
@@ -62,7 +62,7 @@ public class App {
         System.out.println("Ticket cancelled!");
         System.out.println("Number of Tickets Sold : " + b.numberofTicketsSold);
         System.out.println("Empty Seat : " + b.learnEmptySeat());
-        System.out.println("Total Number of Tickets Sold : " + b.findOutTheTotalNumberofTicketsSold()); 
+        System.out.println("Total Number of Tickets Sold : " + b.getTheTotalNumberofTicketsSold()); 
         Cinema c = new Cinema(3, 50);
         System.out.println("\nCinema C");
         System.out.println("Empty Seat : " + c.learnEmptySeat());
@@ -76,6 +76,6 @@ public class App {
         System.out.println("Ticket cancelled!");
         System.out.println("Number of Tickets Sold : " + c.numberofTicketsSold);
         System.out.println("Empty Seat : " + c.learnEmptySeat());
-        System.out.println("Total Number of Tickets Sold : " + c.findOutTheTotalNumberofTicketsSold());
+        System.out.println("Total Number of Tickets Sold : " + c.getTheTotalNumberofTicketsSold());
     }
 }
