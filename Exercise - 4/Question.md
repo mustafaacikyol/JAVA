@@ -1,3 +1,5 @@
+<img title="UML Diagram" alt="UML Diagram" src="UML-Diagram.png">
+
 Create the classes of the above UML diagram with constructors.
 
 • Add voice() method in addition to Animal class and override this method for each subclass.
